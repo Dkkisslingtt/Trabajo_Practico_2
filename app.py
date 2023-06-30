@@ -26,3 +26,12 @@ def about():
     return render_template(
         'about.html'
 )
+
+@app.route('/experiences')
+def experiences():
+    return render_template(
+        'experiences.html',
+        flutter=flutter,
+        monitor=monitor,
+        react=react
+)
