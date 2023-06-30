@@ -14,3 +14,9 @@ crowntemplate = f"{app.config['STATIC_FOLDER']}/{app.config['IMAGES_FOLDER']}/cr
 flutter = f"{app.config['STATIC_FOLDER']}/{app.config['IMAGES_FOLDER']}/flutter.png"
 monitor = f"{app.config['STATIC_FOLDER']}/{app.config['IMAGES_FOLDER']}/monitor.png"
 react = f"{app.config['STATIC_FOLDER']}/{app.config['IMAGES_FOLDER']}/react.png"
+
+@app.route('/')
+def index():
+    return render_template(
+        'index.html'
+)
