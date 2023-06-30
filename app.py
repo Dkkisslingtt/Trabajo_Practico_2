@@ -35,3 +35,9 @@ def experiences():
         monitor=monitor,
         react=react
 )
+    
+@app.route('/contact')
+def contact():
+    return render_template(
+        'contact.html'
+)
