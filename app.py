@@ -41,3 +41,14 @@ def contact():
     return render_template(
         'contact.html'
 )
+
+@app.route('/project')
+def project():
+    return render_template(
+        'project.html',
+        borealcoffee=borealcoffee,
+        crowntemplate=crowntemplate,
+        dopefolio=dopefolio,
+        wilsonport=wilsonport,       
+        
+)
