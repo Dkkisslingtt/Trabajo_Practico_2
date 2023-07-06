@@ -21,16 +21,10 @@ Este repositorio contiene el código fuente de un blog personal desarrollado por
 4. Instala las dependencias del proyecto. Asegúrate de que estás en la raíz del proyecto y ejecuta el siguiente comando:
 
         pip install -r requirements.txt
-5. Configura las variables de entorno. Crea un archivo .env en la raíz del proyecto y define las siguientes variables de entorno:
 
-
-        FLASK_APP=app.py
-        FLASK_ENV=development
-6. Inicia el servidor. Ejecuta el siguiente comando para iniciar el servidor de desarrollo:
+5. Inicia el servidor. Ejecuta el siguiente comando para iniciar el servidor de desarrollo:
 
         flask run --reload
-7. Ahora podrás acceder al blog personal del programador en tu navegador a través de la dirección http://localhost:5000.
+6. Ahora podrás acceder al blog personal del programador en tu navegador a través de la dirección http://localhost:5000.
 
 ---
-Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para obtener más información. 
